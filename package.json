@@ -1,0 +1,21 @@
+{
+  "name": "webdesignstudio",
+  "version": "1.0.0",
+  "description": "pet project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Elrumm"
+  },
+  "author": "Elrumm",
+  "license": "ISC"
+}

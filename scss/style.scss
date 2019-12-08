@@ -1,0 +1,88 @@
+$color-main: #10c9c3;
+$color-secondary: #e9e9e9;
+$footer-color: #141414;
+$title-font-color: #1d1d1d;
+$paragraph-font-color: #787878;
+$third-font-color: #fff;
+$font-main: "Montserrat", sans-serif;
+$font-secondary: "Nunito Sans", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+  }
+}
+.grey-bg {
+  background: $color-secondary;
+}
+.blue-bg {
+  background: $color-main;
+}
+.button {
+  font-family: $font-main;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  background: #10c9c3;
+  padding: 23px 46px 23px 46px;
+}
+.header-nav {
+  & {
+    font-family: $font-main;
+  }
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-nav__menu {
+  a:not(:last-child) {
+    padding-right: 30px;
+  }
+  a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: $title-font-color;
+    &:hover {
+      color: $color-main;
+    }
+  }
+}
+.main-title {
+  height: 600px;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-title__heading {
+  width: 50%;
+  height: 240px;
+  h1 {
+    font-size: 38px;
+    font-family: $font-main;
+    color: $title-font-color;
+  }
+  p {
+    font-size: 18px;
+    font-family: $font-secondary;
+    color: $paragraph-font-color;
+    padding: 40px 0 40px;
+  }
+}
