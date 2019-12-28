@@ -1,5 +1,5 @@
 $color-main: #10c9c3;
-$color-secondary: #e9e9e9;
+$color-secondary: #f3f3f3;
 $color-third: #f8f9f9;
 $footer-color: #141414;
 $title-font-color: #1d1d1d;
@@ -23,9 +23,6 @@ ul {
     display: inline-block;
   }
 }
-.grey-bg {
-  background: $color-secondary;
-}
 .blue-bg {
   background: $color-main;
 }
@@ -37,6 +34,10 @@ ul {
   display: inline-block;
   background: #10c9c3;
   padding: 23px 46px 23px 46px;
+}
+header {
+  background: url(/img/header_bg.jpg) no-repeat;
+  background-size: 60%;
 }
 .header-nav {
   & {
@@ -109,7 +110,8 @@ ul {
 .main-skills__right {
   height: 570px;
   width: 50%;
-  background: $color-secondary;
+  background: url(/img/skills_bg.png) no-repeat;
+  background-size: cover;
 }
 .main-skills {
   width: 75%;
@@ -132,6 +134,14 @@ ul {
   span {
     display: block;
     border-bottom: 3px solid $color-main;
-    
   }
+}
+.achievements__wrapper {
+  background: $color-main;
+  height: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.achievments {
 }
