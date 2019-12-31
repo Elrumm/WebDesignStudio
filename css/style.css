@@ -48,6 +48,7 @@ header {
   font-weight: 700;
   font-size: 13px;
   color: #1d1d1d;
+  cursor: pointer;
   transition: 0.3s; }
   .header-nav__menu a:hover {
     color: #10c9c3;
@@ -167,3 +168,39 @@ header {
   width: 100%;
   display: flex;
   justify-content: center; }
+
+.services__wrapper {
+  background: #f3f3f3;
+  width: 100%;
+  min-height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .services__wrapper h5 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px; }
+  .services__wrapper p {
+    padding-top: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #787878;
+    font-size: 15px; }
+
+.services_first-line {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.services_second-line {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.services_item {
+  width: 200px;
+  min-height: 160px; }
