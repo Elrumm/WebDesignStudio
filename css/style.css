@@ -236,3 +236,51 @@ header {
 
 .slider-item {
   width: 40%; }
+
+.order-form__wrapper {
+  height: 750px;
+  width: 100%;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.order-form {
+  width: 50%;
+  text-align: center; }
+  .order-form input {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    height: 60px;
+    border: none; }
+  .order-form textarea {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    resize: none;
+    border: none;
+    width: 80%;
+    height: 170px; }
+  .order-form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #10c9c3;
+    padding: 22px 36px 22px 36px;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif; }
+
+.input-name {
+  margin-right: 90px;
+  width: 35%; }
+
+.input-email {
+  width: 35%; }
+
+.input-title {
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 25px; }

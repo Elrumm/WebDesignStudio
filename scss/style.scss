@@ -18,7 +18,7 @@ sans-serif;
 
 a {
   text-decoration: none;
-  
+
 }
 
 ul {
@@ -274,11 +274,13 @@ header {
   min-height: 160px;
 
 }
+
 .quote-slider__wrapper {
   width: 100%;
   min-height: 500px;
   background: $color-main;
 }
+
 .quote-slider {
   width: 50%;
   min-height: 500px;
@@ -290,12 +292,14 @@ header {
   font-family: $font-main;
   font-size: 30px;
   line-height: 45px;
+
   p {
     padding-top: 30px;
     text-transform: uppercase;
     font-size: 20px;
   }
 }
+
 .clients-slider {
   width: 80%;
   height: 200px;
@@ -304,6 +308,66 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .slider-item {
- width: 40%;
+  width: 40%;
+}
+
+.order-form__wrapper {
+  height: 750px;
+  width: 100%;
+  background: $color-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-form {
+  width: 50%;
+  text-align: center;
+
+  input {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: $font-secondary;
+    height: 60px;
+    border: none;
+  }
+
+  textarea {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: $font-secondary;
+    resize: none;
+    border: none;
+    width: 80%;
+    height: 170px;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: $color-main;
+    padding: 22px 36px 22px 36px;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $font-main;
+  }
+}
+
+.input-name {
+  margin-right: 90px;
+  width: 35%;
+}
+
+.input-email {
+  width: 35%;
+}
+
+.input-title {
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
